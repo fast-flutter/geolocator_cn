@@ -5,6 +5,7 @@ version: 1.1.0+6
 repository: https://github.com/fast-flutter/geolocator_cn
 issue_tracker: https://github.com/fast-flutter/geolocator_cn/issues
 homepage: https://www.lookingpet.com
+publish_to: none
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -15,8 +16,13 @@ dependencies:
   coordtransform: ^1.0.2
   flutter:
     sdk: flutter
+#  flutter_bmflocation:
+#    path: ./dependencies_plugins/flutter_bmflocation
   flutter_bmflocation:
-    path: ./dependencies_plugins/flutter_bmflocation
+    git:
+      url: http://code.yesaway.cn/lookingpet-app/flutter-plugins/geolocator_cn
+      ref: flutter_plugin_android_V2
+      path: dependencies_plugins/flutter_bmflocation
   geolocator: 8.2.0
   http: ^0.13.4
   permission_handler: <=8.1.6
