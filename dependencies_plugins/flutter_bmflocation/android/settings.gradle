@@ -1,0 +1,3 @@
+rootProject.name = 'bdmap_location_flutter_plugin'
+include ':flutter_baidu_mapapi_base'
+project(':flutter_baidu_mapapi_base').projectDir = new File('../../flutter_baidu_mapapi_base/android')
