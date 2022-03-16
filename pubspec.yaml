@@ -21,7 +21,7 @@ dependencies:
   flutter_bmflocation:
     git:
       url: http://code.yesaway.cn/lookingpet-app/flutter-plugins/geolocator_cn
-      ref: flutter_plugin_android_V2
+      ref: master
       path: dependencies_plugins/flutter_bmflocation
   geolocator: 8.2.0
   http: ^0.13.4
