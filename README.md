@@ -111,7 +111,7 @@ Edit *android/app/build.gradle*, add this to dependencies:
 ```
 dependencies
 {
-    implementation 'com.amap.api:location:5.6.0'
+    implementation('com.amap.api:location:6.0.1')
 }
 ```
 
