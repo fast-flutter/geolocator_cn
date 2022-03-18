@@ -1,7 +1,7 @@
 name: geolocator_cn
 description: A service helper class that can use multiple location services at
   the same time.
-version: 1.1.0+6
+version: 1.2.0+6
 repository: https://github.com/fast-flutter/geolocator_cn
 issue_tracker: https://github.com/fast-flutter/geolocator_cn/issues
 homepage: https://www.lookingpet.com
@@ -25,7 +25,7 @@ dependencies:
       path: dependencies_plugins/flutter_bmflocation
   geolocator: 8.2.0
   http: ^0.13.4
-  permission_handler: 9.2.0
+  permission_handler: ^9.2.0
 
 dev_dependencies:
   flutter_lints: ^1.0.0
