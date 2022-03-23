@@ -86,16 +86,18 @@ packages:
   flutter_baidu_mapapi_base:
     dependency: transitive
     description:
-      path: "../dependencies_plugins/flutter_baidu_mapapi_base"
+      path: "../../../.pub-cache/git/geolocator_cn-2bdacf5931489c00b436c79503394dbc35eb55ae/dependencies_plugins/flutter_baidu_mapapi_base"
       relative: true
     source: path
     version: "3.0.0"
   flutter_bmflocation:
     dependency: transitive
     description:
-      path: "../dependencies_plugins/flutter_bmflocation"
-      relative: true
-    source: path
+      path: "dependencies_plugins/flutter_bmflocation"
+      ref: master
+      resolved-ref: "2bdacf5931489c00b436c79503394dbc35eb55ae"
+      url: "http://code.yesaway.cn/lookingpet-app/flutter-plugins/geolocator_cn"
+    source: git
     version: "2.0.0-nullsafety.1"
   flutter_lints:
     dependency: "direct dev"
