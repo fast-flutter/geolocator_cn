@@ -15,13 +15,13 @@ dependencies:
   coordtransform: ^1.0.2
   flutter:
     sdk: flutter
-  flutter_bmflocation:
-    path: dependencies_plugins/flutter_bmflocation/
   # flutter_bmflocation:
-  #   git:
-  #     url: http://code.yesaway.cn/lookingpet-app/flutter-plugins/geolocator_cn
-  #     ref: master
-  #     path: dependencies_plugins/flutter_bmflocation
+  #   path: dependencies_plugins/flutter_bmflocation/
+  flutter_bmflocation:
+    git:
+      url: http://code.yesaway.cn/lookingpet-app/flutter-plugins/geolocator_cn
+      ref: master
+      path: dependencies_plugins/flutter_bmflocation
   geolocator: ^8.2.0
   http: ^0.13.4
   permission_handler: ^9.2.0
