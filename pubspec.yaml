@@ -16,7 +16,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_bmflocation:
-    path: ./dependencies_plugins/flutter_bmflocation
+    path: dependencies_plugins/flutter_bmflocation/
   # flutter_bmflocation:
   #   git:
   #     url: http://code.yesaway.cn/lookingpet-app/flutter-plugins/geolocator_cn
