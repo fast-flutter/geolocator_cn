@@ -13,13 +13,13 @@ dependencies:
     
   uuid: ^3.0.4
   permission_handler: ^9.2.0
-  flutter_baidu_mapapi_base:
-    path: ../flutter_baidu_mapapi_base
   # flutter_baidu_mapapi_base:
-  #   git:
-  #     url: http://code.yesaway.cn/lookingpet-app/flutter-plugins/geolocator_cn
-  #     ref: master
-  #     path: dependencies_plugins/flutter_baidu_mapapi_base
+  #   path: ../flutter_baidu_mapapi_base/
+  flutter_baidu_mapapi_base:
+    git:
+      url: http://code.yesaway.cn/lookingpet-app/flutter-plugins/geolocator_cn
+      ref: master
+      path: dependencies_plugins/flutter_baidu_mapapi_base
 
 dev_dependencies:
   flutter_test:
